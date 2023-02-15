@@ -18,4 +18,12 @@ The code " format_b = "{:.2f}".format(b)"  ensures you get an output to 2 decima
 
 ## **Week03 - pythonaccounts.py**
 
+I created a programme that would prompt the user to enter a bank account number, then would present the last 4 digits as an identifier with the proceeding numbers replaced with an 'x'.
+
+There were two parts to this task. 
+
+**Part 1**
+
+We were to assume an account number would have ten digits. The numbers we wanted were always 7,8,9,10 and they were then presented as a string at the end of 6 'x's.
+
 https://www.w3schools.in/python/repeat-string-in-python#:~:text=Sometimes%20we%20need%20to%20repeat,strings%20to%20a%20certain%20length.
