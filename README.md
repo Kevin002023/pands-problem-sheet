@@ -16,5 +16,6 @@ However whenever the cent amount was a multiple of ten the programme would only 
 
 The code " format_b = "{:.2f}".format(b)"  ensures you get an output to 2 decimal places.
 
-Week03
+## **Week03 - pythonaccounts.py**
+
 https://www.w3schools.in/python/repeat-string-in-python#:~:text=Sometimes%20we%20need%20to%20repeat,strings%20to%20a%20certain%20length.
