@@ -36,14 +36,17 @@ last4 = accountnum[-4:]
 
 This code isolates the important last 4 digits. 
 
-`length = len(accountnum)
-
-xnumber = int(length) -4`
+```
+length = len(accountnum)
+xnumber = int(length) -4
+```
 
 This code calculates how long the account number is and then how many X's we need in front of the last 4 digits. 
 
-`longnumber = "X"*xnumber + last4
+```
+longnumber = "X"*xnumber + last4
+print(longnumber)
+```
 
-print(longnumber)`
 
 This code presents the correct number of X's required. This was done by repeated a string (x) by the number of digits we want to replace. The formulat to repeat a string was found [here](https://www.w3schools.in/python/repeat-string-in-python#:~:text=Sometimes%20we%20need%20to%20repeat,strings%20to%20a%20certain%20length)
