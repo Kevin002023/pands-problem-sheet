@@ -51,6 +51,39 @@ print(longnumber)
 
 This code presents the correct number of X's required. This was done by repeated a string (x) by the number of digits we want to replace. The formulat to repeat a string was found [here](https://www.w3schools.in/python/repeat-string-in-python#:~:text=Sometimes%20we%20need%20to%20repeat,strings%20to%20a%20certain%20length)
 
+## **Week05 - weekdaky.py**
+
+I created a program, that could tell you if today is a weekday or weekend. 
+
+Doing some research, I found [here](https://www.w3schools.com/python/python_datetime.asp), that you can import a module called datetime with useful functions. 
+
+I first created a list of weekdays.
+
+```
+today = datetime.datetime.now()
+```
+This code will give you todays date
+
+```
+i = today.strftime("%A") 
+```
+
+This is a function from the datetime module that will take todays date and give you the day of the week (i).
+
+Next I wanted to check if (i) was in our list of weekdays. I found a formula to check our list [here](https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/)
+
+```
+if i in weekday: # this checks if i(today) is in the list weekday https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
+    print("Yes, unfortunately today is a weekday")
+else:
+    print("It is the weekend, yay!")
+```
+This code checks if the value of (i) is in our list "Weekdays". If it is it prints that today "Yes, unfortunately today is a weekday" and if its not "It is the weekend, yay!"
+
+References:
+
++ https://www.w3schools.com/python/python_datetime.asp
++ https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
 
 ## **Week06 - sqrt.py**
 
