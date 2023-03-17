@@ -87,3 +87,9 @@ This code will run our (a) and our (xn) values through our formula - (a/xn)+xn)*
 **Part 2**
 
 As the tasked asked for this in a function, I defined a function called sqrt(a) and used the above code. 
+
+**References:**
+
+https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf
+https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+https://www.youtube.com/watch?v=xdlIFw5EM4w
