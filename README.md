@@ -90,6 +90,6 @@ As the tasked asked for this in a function, I defined a function called sqrt(a) 
 
 **References:**
 
-+https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf 
-+https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
-+https://www.youtube.com/watch?v=xdlIFw5EM4w
++ https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf 
++ https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
++ https://www.youtube.com/watch?v=xdlIFw5EM4w
