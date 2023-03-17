@@ -66,21 +66,21 @@ xn =  estimate of the square root of a
 
 The formuala gives an output which is a more accurate square root of a.  By using the above formula for a number of iterations each time replacing xn with the output of the forumla (xn_b), the approximate square roote gets more accurate each iteration. When the xn value and the xn_b value are the same, we have found the accurate square root of a. 
 
-``
+```
 a = float(input("Insert a positive number here: "))
 xn =(a*0.5)  
 print(xn)
 
-``
+```
 This code allows us to input any positive number to give our (a) value and makes an estimate of the square root by dividing it by 2, giving us our (xn) value.
 
-``
-xn_b = ((a/xn)+xn)*0.5 # xn is an approximate square root. xn_b is a more accurate square root of a
+```
+xn_b = ((a/xn)+xn)*0.5 
 while (xn_b != xn):
     xn = xn_b
-    xn_b = ((a/xn)+xn)*0.5  # when xn and xn_b have the same value, this is the square root of a
+    xn_b = ((a/xn)+xn)*0.5  
 print(f"The square root of {a} is {xn_b}")
-``
+```
 
 This code will run our (a) and our (xn) values through our formula - (a/xn)+xn)*0.5. The while loop will take the output of this formula and feed it back in as (xn_b). it will contineu to run iterations until the two values are the same. This value is the square root we were looking for. The code will then print this value.
 
