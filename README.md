@@ -73,7 +73,7 @@ This is a function from the datetime module that will take todays date and give 
 Next I wanted to check if (i) was in our list of weekdays. I found a formula to check our list [here](https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/)
 
 ```
-if i in weekday: # this checks if i(today) is in the list weekday https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
+if i in weekday:
     print("Yes, unfortunately today is a weekday")
 else:
     print("It is the weekend, yay!")
