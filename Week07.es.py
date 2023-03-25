@@ -4,7 +4,6 @@
 
 import sys
 
-
  # i created a function which will take in a filename and output the number of e's in the text
 
 def number_of_e(FILENAME):  # i created a function whihc will take in a filename and output the number of e's in the text
