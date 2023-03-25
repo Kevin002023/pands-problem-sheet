@@ -83,9 +83,13 @@ n = int(input("Insert number here: "))
 This code asks the user to input a number which will then be used in the below calculations. 
 
 ``
+
+
 while (n != 1):
         print(n,end=" ")      
 ``
+
+
 This will output a list of all steps in the below calculations. I used 'end="" ' as I wanted them all to appear on the same line as per our task. I read about control flow and the while statement [here](https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf)
 
 ``
@@ -95,6 +99,7 @@ This will output a list of all steps in the below calculations. I used 'end="" '
             n = (n*3)+1
 print(n)
 ``
+
 
 Using 'n%2 == 0' we can find out if the integer is even. If it is then its directed to the next line, which divides it by 2. If the integer is odd it is directed to another equation using 'else'. This equation multiplies it by 3 and adds 1. 
 
@@ -210,6 +215,8 @@ def number_of_e(FILENAME):
         e = data.count("e") 
         print(f"And the number of 'e's in the file is {e}")
 ``
+
+
 The function number_of_e() is now defined. It opens "FILENAME" in a readbale format. Here, FILENAME serves as a placeholder. When actually using the funciton the value will be come from the command line. 
 
 I found the formula for counting the occurences of a character [here](https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/). This was e = data.count("e")
@@ -225,11 +232,13 @@ The following [video](https://www.youtube.com/watch?v=QJBVjBq4c7E) explained tha
 a = sys.argv[1]
 ``
 
+
 The second argument [1] entered from the commandline will thefore be 'a'. Using my example file the user will input the below
 
 ``
 python Week07.es.py example.txt
 ``
+
 
 argv1[0] = Week07.es.py
 argv[1] = example.txt
@@ -238,7 +247,8 @@ We can then feed this value into our original function number_of_e()
 
 ```
 number_of_e(a)
-``
+```
+
 
 This will then print out;
 "Your file is {number_of_characters} characters long
