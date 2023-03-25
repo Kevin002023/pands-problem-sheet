@@ -34,5 +34,9 @@ def sqrt(a):
         xn_b = ((a/xn)+xn)*0.5  # when xn and xn_b have the same value, this is the square root of a
     print(f"The square root of {a} is {xn_b}")
 
-num = float(input("Insert number to square here: "))
+num = float(input("Insert a postive number to square here: "))
+if num < 0: 
+    print("To find the sqaure root, we need a postive number. I will use the positive version of your number")
+    num = abs(num)
+    
 sqrt(num)
