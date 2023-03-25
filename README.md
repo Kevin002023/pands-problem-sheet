@@ -2,13 +2,13 @@
 
 ## **Table of Contents**
 
-1. Week01 - helloworld.py
-2. Week02 - bank.py
-3. Week03 - pythonaccounts.py
-4. Week04 - collatz.py
-5. Week05 - weekday.py
-6. Week06 - sqrt.py
-7. Week07 - es.py
+1. Week01 - [helloworld.py](#week01---helloworldpy)
+2. Week02 - [bank.py](#week02---bankpy)
+3. Week03 - [pythonaccounts.py](#week03---pythonaccountspy)
+4. Week04 - [collatz.py](#week03---pythonaccountspy)
+5. Week05 - [weekday.py](#week05---weekdaypy)
+6. Week06 - [sqrt.py](#week06---sqrtpy)
+7. Week07 - [es.py](#week07---espy)
 8. Week08 - 
 
 
@@ -63,7 +63,11 @@ print(longnumber)
 
 This code presents the correct number of X's required. This was done by repeated a string (x) by the number of digits we want to replace. The formulat to repeat a string was found [here](https://www.w3schools.in/python/repeat-string-in-python#:~:text=Sometimes%20we%20need%20to%20repeat,strings%20to%20a%20certain%20length)
 
-## **Week05 - weekdaky.py**
+
+## **Week04 - collatz.py**
+
+
+## **Week05 - weekday.py**
 
 I created a program, that could tell you if today is a weekday or weekend. 
 
@@ -139,8 +143,6 @@ As the tasked asked for this in a function, I defined a function called sqrt(a) 
 + https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
 + https://www.youtube.com/watch?v=xdlIFw5EM4w
 
-References: 
 
-https://math.mit.edu/~stevenj/18.335/newton-sqrt.pdf
-https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
-https://www.youtube.com/watch?v=xdlIFw5EM4w
+## **Week07 - e's.py**
+
