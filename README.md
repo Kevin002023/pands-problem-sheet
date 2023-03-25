@@ -206,7 +206,7 @@ The first step was to create a function which would open a file in a readable ma
 
 **This program will only work as long as the text file is in the same directory as the program**
 
-``
+```
 def number_of_e(FILENAME): 
     with open(FILENAME, "r") as f:
         data = f.read()
@@ -214,7 +214,7 @@ def number_of_e(FILENAME):
         print(f"your file is {number_of_characters} characters long")
         e = data.count("e") 
         print(f"And the number of 'e's in the file is {e}")
-``
+```
 
 
 The function number_of_e() is now defined. It opens "FILENAME" in a readbale format. Here, FILENAME serves as a placeholder. When actually using the funciton the value will be come from the command line. 
@@ -228,19 +228,20 @@ I knew from this video I had to import sys and use sys.argv.
 
 The following [video](https://www.youtube.com/watch?v=QJBVjBq4c7E) explained that the name of the code, in this case, Week07.es.py, will count as the first argument. The input will then be the second argument.
 
-``
+```
 a = sys.argv[1]
-``
+```
 
 
 The second argument [1] entered from the commandline will thefore be 'a'. Using my example file the user will input the below
 
-``
+```
 python Week07.es.py example.txt
-``
+```
 
 
 argv1[0] = Week07.es.py
+
 argv[1] = example.txt
 
 We can then feed this value into our original function number_of_e()
