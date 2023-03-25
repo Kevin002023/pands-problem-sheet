@@ -1,4 +1,16 @@
-# Pands-Problem-Sheet
+# **Pands-Problem-Sheet**
+
+## **Table of Contents**
+
+1. Week01 - helloworld.py
+2. Week02 - bank.py
+3. Week03 - pythonaccounts.py
+4. Week04 - collatz.py
+5. Week05 - weekday.py
+6. Week06 - sqrt.py
+7. Week07 - es.py
+8. Week08 - 
+
 
 ## **Week01 - helloworld.py**
 
@@ -108,11 +120,7 @@ print(xn)
 This code allows us to input any positive number to give our (a) value and makes an estimate of the square root by dividing it by 2, giving us our (xn) value.
 
 ```
-<<<<<<< HEAD
-xn_b = ((a/xn)+xn)*0.5
-=======
 xn_b = ((a/xn)+xn)*0.5 
->>>>>>> c13b810753c8e286f6cfffb945fa7dc7d85b9ffb
 while (xn_b != xn):
     xn = xn_b
     xn_b = ((a/xn)+xn)*0.5  
