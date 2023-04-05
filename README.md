@@ -16,9 +16,9 @@
 
 I created a programme that when initiated would present the user with the message "Hello World!". We also set up this repository and linked it to our machines.
 
-``
+```
 print("HelloWorld.py")
-``
+```
 
 This was done by following [the week one lecture](https://web.microsoftstream.com/video/5db36fd4-f7b5-42dd-925f-87b7530c1b2f)
 
@@ -46,9 +46,9 @@ We were to assume an account number would have ten digits. The numbers we wanted
 
 We were to alter our code so that it would carry out the same function for an account number of any size.  The key information is still the last 4 digits however now we dont know how many digits preceed them. The solution to this is to find the first 4 numebrs when reading right to left. I used negative indexing to achieve this. 
 
-``
+```
 last4 = accountnum[-4:]
-``
+```
 
 This code isolates the important last 4 digits. 
 
@@ -77,28 +77,28 @@ I created a program that would ask the user to input a postiive integer. It woul
 
 The idea is that no matter how many steps it takes all numbers will eventually reduce to the steps 4 - 2 - 1. This has been unable to be proven but seems to work for all numbers up to 2**68. This [video](https://www.youtube.com/watch?v=094y1Z2wpJg&t=1) explained the background of this problem to me. 
 
-``
+```
 n = int(input("Insert number here: "))
-``
+```
+
 This code asks the user to input a number which will then be used in the below calculations. 
 
-``
-
+```
 
 while (n != 1):
         print(n,end=" ")      
-``
+```
 
 
 This will output a list of all steps in the below calculations. I used 'end="" ' as I wanted them all to appear on the same line as per our task. I read about control flow and the while statement [here](https://s3-us-west-2.amazonaws.com/python-notes/a-whirlwind-tour-of-python-2.pdf)
 
-``
+```
  if (n%2 == 0):          
             n = n//2            
         else:               
             n = (n*3)+1
 print(n)
-``
+```
 
 
 Using 'n%2 == 0' we can find out if the integer is even. If it is then its directed to the next line, which divides it by 2. If the integer is odd it is directed to another equation using 'else'. This equation multiplies it by 3 and adds 1. 
