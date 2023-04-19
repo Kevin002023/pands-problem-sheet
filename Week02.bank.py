@@ -1,16 +1,15 @@
 # bank.py
 # author: Kevin O'Leary
-# Take cent uinput and output €
+# Take cent input and output €
 
 amount1 = int(input("Enter amount here (in cent):"))
 amount2 = int(input("Enter second amount here (in cent):"))
 
-a = amount1/100
-b = amount2/100
+# in order to avoid floats I used floor division to obtain the euro and modulus the cent totals
+total = amount1+amount2
 
-c = (a+b)
+euro = str(total//100)
+cent = str(total%100)
 
-d = str(c)
 
-
-print(f"The sum of these is €" + d)
+print(f"The sum of these is €" + euro + "." + cent.zfill(2) )

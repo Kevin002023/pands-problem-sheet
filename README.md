@@ -28,9 +28,15 @@ I created a programme, that would prompt the user to enter two monetary amounts 
 
 This was done by following [the week two lecture](https://web.microsoftstream.com/video/a837d9b7-e63f-4df7-942f-461aade818e9)
 
-However whenever the cent amount was a multiple of ten the programme would only output to 1 decimal place. I was able to correct this using the following [resource](https://pythonguides.com/python-print-2-decimal-places/)
+Originally I divided both amounts by 100 to give the figures in euros and then added them together before presenting them as a string. 
 
-The code " format_b = "{:.2f}".format(b)"  ensures you get an output to 2 decimal places.
+However this method uses a float. In order to avoid this, I used floor division on the total to obtain the whole number euro value and then used the modulus function on the total to obtain the cent amount. 
+
+The below code prints out the total as a string. In order to ensure the cent value was always two digits i used a zfill() function whcih came across at the following [resourse](https://www.w3schools.com/python/ref_string_zfill.asp#:~:text=Definition%20and%20Usage,string%2C%20no%20filling%20is%20done.)
+
+````
+print(f"The sum of these is €" + euro + "." + cent.zfill(2) )
+````
 
 ## **Week03 - pythonaccounts.py**
 
