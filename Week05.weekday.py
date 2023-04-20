@@ -13,7 +13,6 @@ today = datetime.datetime.now()
 
 i = today.strftime("%A") # this generates todays day and equates it to i
 
-
 if i in weekday: # this checks if i(today) is in the list weekday https://www.geeksforgeeks.org/check-if-element-exists-in-list-in-python/
     print("Yes, unfortunately today is a weekday")
 else:

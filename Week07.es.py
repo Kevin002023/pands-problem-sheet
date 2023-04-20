@@ -11,8 +11,10 @@ def number_of_e(FILENAME):  # i created a function whihc will take in a filename
         data = f.read() # opens a readable version of the file as text
         number_of_characters = len(data) # not needed but i thougt it was interesting
         print(f"your file is {number_of_characters} characters long")
-        e = data.count("e") # using the count function to find the string "e"
-        print(f"And the number of 'e's in the file is {e}")
+        e = data.count("e",) # using the count function to find the string "e"
+        cap_e = data.count("E") # using the count function to find the string "E"
+        total_es = e +cap_e # total amount of e's both upper and lower case
+        print(f"And the number of 'e's in the file is {total_es}")
 
 a = sys.argv[1]  # taking the name of the file from a command line argument. the arguments are "name of code" , input text. We only 
                 #  want the second so we look for [1] which then ignores [0] (aka) the name of the code

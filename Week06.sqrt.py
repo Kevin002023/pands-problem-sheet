@@ -28,7 +28,7 @@
 def sqrt(a):
     
     xn =(a*0.5)
-    xn_b = ((a/xn)+xn)*0.5 # xn is an approximate square root. xn_b is a more accurate suqare root of a
+    xn_b = ((a/xn)+xn)*0.5 # xn is an approximate square root. xn_b is a more accurate sqare root of a
     while (xn_b != xn):
         xn = xn_b
         xn_b = ((a/xn)+xn)*0.5  # when xn and xn_b have the same value, this is the square root of a

@@ -213,19 +213,21 @@ The first step was to create a function which would open a file in a readable ma
 **This program will only work as long as the text file is in the same directory as the program**
 
 ```
-def number_of_e(FILENAME): 
+def number_of_e(FILENAME):  # i created a function whihc will take in a filename and output the number of e's in the text
     with open(FILENAME, "r") as f:
-        data = f.read()
-        number_of_characters = len(data) 
+        data = f.read() # opens a readable version of the file as text
+        number_of_characters = len(data) # not needed but i thougt it was interesting
         print(f"your file is {number_of_characters} characters long")
-        e = data.count("e") 
-        print(f"And the number of 'e's in the file is {e}")
+        e = data.count("e",) # using the count function to find the string "e"
+        cap_e = data.count("E") # using the count function to find the string "E"
+        total_es = e +cap_e # total amount of e's both upper and lower case
+        print(f"And the number of 'e's in the file is {total_es}")
 ```
 
 
-The function number_of_e() is now defined. It opens "FILENAME" in a readbale format. Here, FILENAME serves as a placeholder. When actually using the funciton the value will be come from the command line. 
+The function number_of_e() is now defined. It opens "FILENAME" in a readable format. Here, FILENAME serves as a placeholder. When actually using the funciton the value will be come from the command line. 
 
-I found the formula for counting the occurences of a character [here](https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/). This was e = data.count("e")
+I found the formula for counting the occurences of a character [here](https://pythonexamples.org/python-count-occurrences-of-word-in-text-file/). This was e = data.count("e"). However I also wanted to include captial e's in the equation. I ran a seperate count for "E" and then added them together to get the variable total_es.
 
 
 The next step was to be able to feed in the FILENAME from the command line. This took some research. [This](https://www.youtube.com/watch?v=PZN7vVxeh9M) gave me some much needed backround on how arguments work. 
